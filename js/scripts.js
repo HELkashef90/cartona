@@ -354,10 +354,10 @@
                 autoPlay: 3000,
                 pagination: false,
                 itemsCustom: [
-                  [0, 2],      
-                  [450, 3],
-                  [700, 4],
-                  [1000, 5],
+                  [0, 3],      
+                  [450, 4],
+                  [700, 5],
+                  [1000, 6],
                   [1200, 6],
                   [1400, 7],
                   [1600, 8]
@@ -408,7 +408,7 @@
 
               slideSpeed: 300,
               paginationSpeed: 400,
-              items: 3,
+              items: 4,
               itemsDesktop: [1199,3],
               itemsDesktopSmall: [979,3],
               pagination: false
