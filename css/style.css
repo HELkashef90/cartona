@@ -4155,6 +4155,16 @@ p.footer-address {
     margin-right: 0px;
     bottom: 13px;
 }
+.google-play:before{
+  content: "\e900";
+  color: #fff;
+  font-family: "icons";
+
+}
+.google-play{
+font-style: unset;
+
+}
 .builtSchedule .service-item-box.icon-effect-1.icon-effect-1a a{
   border-radius: 50%;
   background: #e76D21;
@@ -4415,6 +4425,9 @@ footer .footer-widgets a {
   /* #owl-partners .owl-item img{
     max-width: 140px;
   } */
+  .result-boxes.style-2 .statistic span{
+    font-size: 45px;
+  }
   .builtSchedule .features-icons .service-item-box{
     box-shadow: none;
     text-align: start;
@@ -4602,6 +4615,11 @@ text-align: start;
   font-weight: 500;
   transition: all 0.3s;
 } */
+.result-boxes.style-2 .statistic span.timer{
+
+  display: contents;
+}
+
 .button-store .custom-btn {
   display: inline-block;
   margin-bottom: 20px;

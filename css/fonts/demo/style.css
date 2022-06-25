@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?t4qrlz');
-  src:  url('fonts/icomoon.eot?t4qrlz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?t4qrlz') format('truetype'),
-    url('fonts/icomoon.woff?t4qrlz') format('woff'),
-    url('fonts/icomoon.svg?t4qrlz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?i2rg82');
+  src:  url('fonts/icomoon.eot?i2rg82#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?i2rg82') format('truetype'),
+    url('fonts/icomoon.woff?i2rg82') format('woff'),
+    url('fonts/icomoon.svg?i2rg82#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-googleplay:before {
+  content: "\e900";
+  color: #607d8b;
+}
 .icon-checkmark:before {
   content: "\ea10";
 }
