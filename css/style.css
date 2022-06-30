@@ -4272,7 +4272,7 @@ color: #000;
 }
 .waveWrapperInner.bgBottom{
  
-    background-image:  url('../img/banner/1\ Background.jpg');
+    background-image:  url('../img/banner/1\ Background.jpg') !important;
     /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
     background-attachment: fixed;
     background-position: center;
