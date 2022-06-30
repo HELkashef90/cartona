@@ -4802,6 +4802,9 @@ color: #7a7a7a;
    bottom: 0px;
 }
 }
+.imgslider{
+  overflow: visible;
+}
 @media (max-width: 860px) {
   .hero-message.text-rotator h1 {
     font-size: 29px;
@@ -4825,7 +4828,7 @@ color: #7a7a7a;
 }
   @media (max-width: 768px) {
     .section-wrap, .section-wrap-mp {
-      padding: 120px 0px;
+      padding: 100px 0px;
   }
     .footer-socials{
       margin-bottom: 25px;
