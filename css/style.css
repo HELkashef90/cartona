@@ -1,3 +1,35 @@
+/********************* Start New branding for etisalat  *********************/
+/*font face English*/
+@font-face {
+	font-family: 'publicsans';
+	src: url(fonts/publicsans.eot);
+	/* IE9 Compat Modes */
+	src: url(fonts/publicsans.eot?#iefix) format("embedded-opentype"),
+		/* IE6-IE8 */
+		url(fonts/publicsans.ttf) format("truetype"),
+		/* Safari, Android, iOS */
+		url(fonts/publicsans.svg#publicsans) format("svg"),
+		/* Legacy iOS */
+		url(fonts/publicsans.woff) format("woff");
+	/* Modern Browsers */
+	font-weight: 400;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'publicsans-bold';
+	src: url(fonts/PublicSans-Bold.eot);
+	/* IE9 Compat Modes */
+	src:url(fonts/PublicSans-Bold.ttf) format("truetype"),
+		/* Safari, Android, iOS */
+		url(fonts/PublicSans-Bold.svg) format("svg"),
+		/* Legacy iOS */
+		url(fonts/PublicSans-Bold.woff) format("woff");
+	/* Modern Browsers */
+	font-weight: 700;
+	font-style: normal
+}
+
 /*-------------------------------------------------------*/
 /* General
 /*-------------------------------------------------------*/
@@ -4238,13 +4270,22 @@ color: #000;
     background-image: linear-gradient(to top, #022DD5 40%, #165BDA 60%);
     /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
 }
+.waveWrapperInner.bgBottom{
+ 
+    background-image:  url('../img/banner/1\ Background.jpg');
+    /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bgTop {
     z-index: 15;
     opacity: 0.5;
 }
 .bgMiddle {
     z-index: 10;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 .bgBottom {
     z-index: 5;
@@ -4844,3 +4885,38 @@ color: #7a7a7a;
     height: 825px;
 }
   }
+
+  .subheading{
+    font-style: unset;
+  }
+  .owl-carousel .branding .work-img{
+    border-radius: 20px;
+  }
+  .footer-widgets {
+    padding: 50px 0;
+}
+
+.footer-widgets h2{
+  color: #fff;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+
+  
+}
+.footer-widgets .button-store .custom-btn:last-child{
+  min-width: 190px;
+
+}
+.footer-socials{
+  margin-left: 20px;
+}
+.loc.section-wrap{
+padding: 0px;
+background-attachment: unset;
+
+}
+.loc .container{
+
+  margin-top: 245px;
+  margin-bottom: 245px;
+}
