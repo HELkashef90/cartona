@@ -1,12 +1,12 @@
 /********************* Start New branding for etisalat  *********************/
 /*font face English*/
 @font-face {
-	font-family: 'publicsans';
+	font-family: 'Montserrat';
 	src: url(fonts/publicsans.eot);
 	/* IE9 Compat Modes */
 	src: url(fonts/publicsans.eot?#iefix) format("embedded-opentype"),
 		/* IE6-IE8 */
-		url(fonts/publicsans.ttf) format("truetype"),
+		url(../fonts/Montserrat-VariableFont_wght.ttf) format("truetype"),
 		/* Safari, Android, iOS */
 		url(fonts/publicsans.svg#publicsans) format("svg"),
 		/* Legacy iOS */
@@ -28,6 +28,9 @@
 	/* Modern Browsers */
 	font-weight: 700;
 	font-style: normal
+}
+body,body.ltr{
+  font-family: "Montserrat"  ;
 }
 
 /*-------------------------------------------------------*/
@@ -4946,3 +4949,8 @@ background-attachment: unset;
 
 .bottom-line:after {
   border-bottom: 0px solid #e8e8e8;}
+
+
+  h2.text-center{
+    padding-top: 10px;
+  }
