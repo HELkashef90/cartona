@@ -411,6 +411,14 @@
               items: 4,
               itemsDesktop: [1199,3],
               itemsDesktopSmall: [979,3],
+              itemsCustom: [
+                [0, 1.5],      
+                [450, 2],
+                [680, 2.5],
+                [979,3],
+                [1199,4]
+ 
+              ],
               pagination: false
 
             });

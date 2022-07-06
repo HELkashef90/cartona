@@ -4267,17 +4267,17 @@ color: #000;
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #022DD5 40%, #165BDA 60%);
+    background-image: linear-gradient(to top, #022DD5 40%, #165BDA 60%) !important;
     /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
 }
 .waveWrapperInner.bgTop{
  
     background-image:  url('../img/banner/1\ Background.jpg') !important;
     /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 .bgTop {
     z-index: 15;
@@ -4846,9 +4846,12 @@ color: #7a7a7a;
     .hero-wrap.text-center {
       /* z-index: 99; */
       height: 825px;
+      margin-bottom: 70px;
+
   }
   .hero-message h1, .hero-message.text-rotator h1  {
-     margin-top: 62px;
+     margin-top: 90px;
+     /* margin-top: 62px; */
   
   }
 
@@ -4858,7 +4861,9 @@ color: #7a7a7a;
     }
   }
   @media (max-width: 480px) {
-
+     p{
+      font-size: 15px;
+    }
     #product .icon.hi-icon img {
       position: relative;
       width: 40px;
@@ -4878,7 +4883,7 @@ color: #7a7a7a;
 }
 .hero-message h1, .hero-message.text-rotator h1  {
   font-size: 25px !important;
-  margin-top: 62px;
+  margin-top: 100px;
 
 }
 .hero-message .button-store .custom-btn {
@@ -4889,6 +4894,8 @@ color: #7a7a7a;
   .hero-wrap.text-center {
     /* z-index: 99; */
     height: 825px;
+    margin-bottom: 80px;
+
 }
   }
 
