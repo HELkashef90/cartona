@@ -17,10 +17,10 @@
 }
 
 @font-face {
-	font-family: 'publicsans-bold';
+	font-family: 'Montserrat-bold';
 	src: url(fonts/PublicSans-Bold.eot);
 	/* IE9 Compat Modes */
-	src:url(fonts/PublicSans-Bold.ttf) format("truetype"),
+	src:url(../fonts/Montserrat-VariableFont_wght.ttf) format("truetype"),
 		/* Safari, Android, iOS */
 		url(fonts/PublicSans-Bold.svg) format("svg"),
 		/* Legacy iOS */
@@ -30,6 +30,9 @@
 	font-style: normal
 }
 body,body.ltr{
+  font-family: "Montserrat"  ;
+}
+body .bold,body.ltr .bold{
   font-family: "Montserrat"  ;
 }
 
@@ -4848,7 +4851,7 @@ color: #7a7a7a;
     }
     .hero-wrap.text-center {
       /* z-index: 99; */
-      height: 825px;
+      height: 865px;
       margin-bottom: 70px;
 
   }
@@ -4902,7 +4905,7 @@ color: #7a7a7a;
   }
   .hero-wrap.text-center {
     /* z-index: 99; */
-    height: 825px;
+    height: 865px;
     margin-bottom: 80px;
 
 }
