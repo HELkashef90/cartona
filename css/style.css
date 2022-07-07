@@ -4286,15 +4286,15 @@ color: #000;
     background-size: cover !important;
 }
 .bgTop {
-    z-index: 15;
+    /* z-index: 15; */
     opacity: 0;
 }
 .bgMiddle {
-    z-index: 10;
+    /* z-index: 10; */
     opacity: 0;
 }
 .bgBottom {
-    z-index: 5;
+    /* z-index: 5; */
 }
 .wave {
     position: absolute;
