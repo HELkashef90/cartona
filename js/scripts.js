@@ -419,7 +419,7 @@
                 [1199,4]
  
               ],
-              pagination: false
+              pagination: true
 
             });
 
