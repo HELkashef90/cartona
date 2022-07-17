@@ -4868,7 +4868,7 @@ color: #7a7a7a;
   }
   .hero-message h1, .hero-message.text-rotator h1  {
      margin-top: 90px;
-     font-weight: bolder;
+     font-weight: bolder !important;
      /* margin-top: 62px; */
   
   }
