@@ -29,8 +29,8 @@
 	font-weight: 700;
 	font-style: normal
 }
-body,body.ltr{
-  font-family: "Montserrat"  ;
+body,body.ltr,em,p,h1,h2,h3,h4,h5,h6,span,.subheading,.statistic span{
+  font-family: "Montserrat"  !important;
 }
 body .bold,body.ltr .bold{
   font-family: "Montserrat"  ;
@@ -4781,13 +4781,19 @@ color: #7a7a7a;
   }
   .hero-message img {
     position: relative;
-    /* top: 35px; */
-    top: 0px;
+    top: 35px;
+    /* top: 0px; */
     left: 12px;
-}
+    width: 222px;
+
+  }
   .hero-subtitle {
     font-size: 12px;
 }
+
+.TrackTime .service-item-box {
+    height: auto;}
+
   .navigation-overlay .nav-wrap {
     width: 100%;
   }
@@ -4804,7 +4810,10 @@ color: #7a7a7a;
   display: none;
 }
 .TrackTime .service-item-box {
-  height: 100px !important;
+  height: auto !important;
+  min-height: 100px !important;
+
+  /* height: 100px !important; */
 }
 .widget.footer-about-us {
    bottom: 0px;
@@ -4824,7 +4833,7 @@ color: #7a7a7a;
   font-size: 13px;
 }
 .hero-message img {
-  width: 340px;
+  width: 222px;
 }
 .navbar-header {
   top: 0px;
@@ -4859,6 +4868,7 @@ color: #7a7a7a;
   }
   .hero-message h1, .hero-message.text-rotator h1  {
      margin-top: 90px;
+     font-weight: bolder;
      /* margin-top: 62px; */
   
   }
@@ -4890,7 +4900,7 @@ color: #7a7a7a;
     padding-left: 65px;
 }
 .hero-subtitle {
-  font-size: 9px;
+  font-size: 12px;
 }
 .hero-message p {
   font-size: 15px;
@@ -4959,3 +4969,7 @@ background-attachment: unset;
   h2.text-center{
     padding-top: 10px;
   }
+  .button-store .custom-btn p em {
+   
+    font-style: normal;
+}
