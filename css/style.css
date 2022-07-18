@@ -4894,6 +4894,9 @@ color: #7a7a7a;
     .hero-message .button-store .custom-btn{
       padding: 5px 10px;
     }
+    .button-store .custom-btn{
+      padding: 10px 10px;
+    }
     .TrackTime .service-item-box {  
       height: auto !important;
     }
@@ -4902,7 +4905,7 @@ color: #7a7a7a;
       width: 170px;}
       .button-store .custom-btn i.google-play{
         font-size: 20px;
-        margin-right: 8px;
+        margin-right: 0px;
 
       }
     }
