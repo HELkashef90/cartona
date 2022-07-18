@@ -4266,11 +4266,6 @@ color: #000;
     bottom: 0;
     top: 0;
     margin: auto;
-    background-image: url(../img/banner/1\ Background.jpg) !important;
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
 }
 .waveWrapperInner {
     position: absolute;
@@ -4280,11 +4275,11 @@ color: #000;
     bottom: -1px;
     /* background-image: linear-gradient(to top, #022DD5 40%, #165BDA 60%) !important; */
     /* background-image: linear-gradient(to top, #86377b 20%, #27273c 80%); */
-    /* background-image: url(../img/banner/1\ Background.jpg) !important;
+    background-image: url(../img/banner/1\ Background.jpg) !important;
     background-attachment: fixed !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-size: cover !important; */
+    background-size: cover !important;
 }
 .waveWrapperInner.bgTop{
  
@@ -4412,6 +4407,7 @@ color: #000;
 }
 .button-store .custom-btn {
   min-width: 180px;
+  width: 202px;
   padding: 10px 25px;
   border: 1px solid #fff;
   font-weight: 500;
@@ -4784,6 +4780,15 @@ color: #7a7a7a;
   }
 }
 @media (max-width: 990px) {
+  .hero-message .button-store .custom-btn {
+    margin: 18px 9px;
+    padding: 5px 8px;
+    min-width: 151px;
+    width: 151px;
+}
+.button-store .custom-btn i.google-play {
+  font-size: 20px;
+}
   .navigation-overlay {
     background-color: rgba(20 ,20 ,20 ,93%);
 }
@@ -4886,15 +4891,29 @@ color: #7a7a7a;
 
   }
   @media (max-width: 660px) {
-    .TrackTime .service-item-box {      height: auto !important;
+    .hero-message .button-store .custom-btn{
+      padding: 5px 10px;
     }
-  }
+    .TrackTime .service-item-box {  
+      height: auto !important;
+    }
+    .button-store .custom-btn {
+      min-width: 170px;
+      width: 170px;}
+      .button-store .custom-btn i.google-play{
+        font-size: 20px;
+        margin-right: 8px;
+
+      }
+    }
   @media (max-width: 480px) {
     .footer-widgets .button-store .custom-btn ,.footer-widgets .button-store .custom-btn:last-child  
     {
       margin-right: 5px !important;
       min-width: 140px !important;
       padding: 10px 10px;
+        width: 172px;
+      
     }
      p{
       font-size: 15px;
@@ -4922,7 +4941,11 @@ color: #7a7a7a;
 
 }
 .hero-message .button-store .custom-btn {
-  margin: 10px 10px;}
+  margin: 10px 2px;
+  padding: 5px 10px;
+
+
+}
   .waveWrapper.waveAnimation{
     height: 1165px;
   }
@@ -4933,7 +4956,26 @@ color: #7a7a7a;
 
 }
   }
-
+@media (max-width: 400px) {
+  .button-store .custom-btn i{
+    font-size: 20px;
+  }
+  .hero-message .button-store .custom-btn,
+  .button-store .custom-btn i.google-play{
+    font-size: 18px;
+  }
+  .hero-message .button-store .custom-btn,.footer-widgets .button-store .custom-btn, .footer-widgets .button-store .custom-btn:last-child{
+    min-width: 138px !important;
+    width: 138px;
+  }
+   .hero-message .button-store .custom-btn p, .button-store .custom-btn p{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .button-store .custom-btn p em,.hero-message .button-store .custom-btn p em{
+    font-weight: normal;
+  }
+}
   .subheading{
     font-style: unset;
   }
@@ -4993,4 +5035,22 @@ background-attachment: unset;
 }
 .owl-theme .owl-controls .owl-page span{
   border: 2px solid #022DD5;
+}
+.row.team-row{
+  /* display: flex;
+  justify-content: center; */
+}
+.our-team .team-wrap {
+  padding: 0 0px;
+}
+#Culture .paraghDesc.heading{
+  margin: 50px 0px;
+  
+}
+#Culture .paraghDesc.heading a,#Culture .paraghDesc.heading a:hover{
+  color: #022DD5;
+}
+#Culture .team-img img{
+  max-width: fit-content;
+  width: 125px;
 }
