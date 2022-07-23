@@ -1325,7 +1325,7 @@ p {
 .icon-effect-1 .hi-icon {
   background-color: transparent;
   color: #bfa67a;
-  border: 2px solid #bfa67a;
+  border: 0px solid #bfa67a;
   -webkit-transition: background 0.2s, color 0.2s;
   -moz-transition: background 0.2s, color 0.2s;
   -ms-transition: background 0.2s, color 0.2s;
@@ -1355,7 +1355,7 @@ p {
 }
 
 .icon-effect-1 .hi-icon:hover {
-  background: #111111;
+  background: transparent;
   color: #fff;
   border-color: transparent;
 }
@@ -4089,8 +4089,8 @@ p.footer-address {
   margin-right: 3px;
   float: left;
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   overflow: hidden;
   background-color: transparent;
   color: #7a7a7a;
@@ -4110,10 +4110,11 @@ p.footer-address {
 
 .social-icons i {
   display: block;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
+  width: 42px;
+  height: 42px;
+  line-height: 40px;
   position: relative;
+  font-size: 21px;
 }
 
 .social-icons a:hover {
@@ -4441,7 +4442,7 @@ footer .footer-widgets a {
 
 
 .promo-device img{
-  width: 300px;
+  width: 400px;
 }
 .imgslider{
   visibility: visible;
@@ -4507,9 +4508,9 @@ footer .footer-widgets a {
 .btn.button.mb-20.subBtn
 {background-color:#e76D21}
 .service-item-box:hover{
-  color: #fff;
-  border-color: transparent;
-  background: #e76D21;
+  /* color: #fff; */
+  /* border-color: transparent; */
+  /* background: #e76D21; */
 }
 .icon-effect-1 .hi-icon,.icon-Star:before,.icon-Layers:before,.icon-Chart:before, .icon.icon-Users.hi-icon.icon.icon-Planet.hi-icon:before,.icon.icon-ChartUp.hi-icon:before{
   /* background-color: #165BDA; */
@@ -4518,25 +4519,26 @@ footer .footer-widgets a {
 }
 .service-item-box:hover .icon-effect-1 .hi-icon,.service-item-box:hover .icon-Star:before,.service-item-box:hover .icon-Layers:before,.icon-Chart:before{
   /* background-color: #165BDA; */
-  border-color: #fff !important;
+  /* border-color: #fff !important; */
   /* color: #fff; */
 }
 .service-item-box:hover h3 ,.service-item-box:hover p,.service-item-box:hover h6{
-  color: #fff;
+  /* color: #fff; */
 
 }
 .compainesService .service-item-box:hover h3 ,.compainesService .service-item-box:hover p,.compainesService .service-item-box:hover h6{
-  color: #000;
+  /* color: #000; */
 
 }
 .icon-effect-1 .hi-icon:hover,.service-item-box:hover .icon-Layers ,.service-item-box:hover .icon.icon-Planet.hi-icon,.service-item-box:hover .icon.icon-Users.hi-icon,.service-item-box:hover .icon.icon-ChartUp.hi-icon{
-  background: #fff;}
+  /* background: #fff; */
+}
   .icon-effect-1 .hi-icon:after{
     box-shadow: none;
   }
 
   .service-item-box:hover .icon.icon-Star.hi-icon,  .service-item-box:hover .icon.icon-Chart.hi-icon{
-    background: #fff;
+    /* background: #fff; */
 
   }
   .date span:first-child{
@@ -4553,12 +4555,12 @@ footer .footer-widgets a {
 text-align: start;
 }
 .builtSchedule .service-item-box:hover {
-  color: #000;
+  /* color: #000;
   border-color: transparent;
-  background: transparent;
+  background: transparent; */
 }
 .builtSchedule .service-item-box:hover h3, .builtSchedule .service-item-box:hover p, .builtSchedule .service-item-box:hover h6 {
-  color: #7a7a7a;
+  /* color: #7a7a7a; */
 }
 .hero-subtitle {
   font-size: 15px;
@@ -4591,7 +4593,7 @@ text-align: start;
   margin-bottom: 0px;
 }
 .compainesService .col-lg-3 i{
-  background: #e76D21 ;
+  /* background: #e76D21 ; */
   border-radius: 50%;
   padding: 17px;
 }
@@ -4599,23 +4601,30 @@ text-align: start;
   width: 47px;
 
 }
+.compainesService .col-sm-9 p:first-child{
+  margin-bottom: 20px;
+}
 .compainesService.services.style-2 .service-item-box h3 {
   margin-bottom: 34px;
-  text-transform: capitalize;
+  text-transform: inherit;
+  font-weight: 100;
+  /* text-transform: capitalize; */
 }
 #suppliers .service-item-box h3 {
   
-  text-transform: capitalize;
+  text-transform: inherit;
+  font-weight: 100;
 }
 #product .icon.hi-icon ,
 #suppliers .icon.hi-icon {
-  background: #e76D21 ;
+  /* background: #e76D21 ; */
 
 }
 #product .icon.hi-icon img,
 #suppliers .icon.hi-icon img{
   position: relative;
-  width: 55px;
+  width: 70px;
+  /* width: 55px; */
   /* bottom: 6px; */
 }
 #product .hi-icon,
@@ -5055,5 +5064,32 @@ background-attachment: unset;
 }
 #Culture .team-img img{
   max-width: fit-content;
-  width: 125px;
+  width: 160px;
+}
+.hero-subtitle {
+ text-transform: initial;
+}
+#Culture .col-md-6.col-md-offset-3 h2.text-center:last-child{
+  font-size: 20px;
+    text-transform: inherit;
+}
+#Culture .team-img{
+  width: 150px;
+    height: 150px;
+    left: 21px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+}
+.AppScreenShot .heading{
+  margin-bottom: 0px;
+}
+#news .team-title.mt-10{
+line-height: 1.4;
+}
+#news .team-member:first-child .team-title.mt-10{
+  font-size: 14px;
+}
+.contact-item a,.contact-item a:hover,.contact-item p{
+color: #022DD5;
 }
