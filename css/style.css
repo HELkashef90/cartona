@@ -4968,6 +4968,11 @@ color: #7a7a7a;
 
 }
   }
+@media (max-width: 420px) {
+  .compainesService .col-md-6.col-md-offset-3{
+    padding: 0px;
+  }
+}
 @media (max-width: 400px) {
   .button-store .custom-btn i{
     font-size: 20px;
