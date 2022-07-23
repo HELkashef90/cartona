@@ -4919,6 +4919,16 @@ color: #7a7a7a;
       }
     }
   @media (max-width: 480px) {
+    .service-item-box > a {
+      margin-bottom: 27px;
+      margin-top: 27px;
+    }
+    .service-item-box:last-child > a {
+margin-top: 40px;
+    }
+    .service-item-box:first-child > a {
+margin-top: 15px;
+    }
     .footer-widgets .button-store .custom-btn ,.footer-widgets .button-store .custom-btn:last-child  
     {
       margin-right: 5px !important;
@@ -4928,7 +4938,7 @@ color: #7a7a7a;
       
     }
      p{
-      font-size: 15px;
+      font-size: 13px;
     }
     #product .icon.hi-icon img {
       position: relative;
@@ -5068,8 +5078,8 @@ background-attachment: unset;
   color: #022DD5;
 }
 #Culture .team-img img{
-  max-width: fit-content;
-  width: 160px;
+  /* max-width: fit-content; */
+  /* width: 160px; */
 }
 .hero-subtitle {
  text-transform: initial;
@@ -5079,12 +5089,13 @@ background-attachment: unset;
     text-transform: inherit;
 }
 #Culture .team-img{
-  width: 150px;
+  /* width: 150px;
     height: 150px;
-    left: 21px;
+    left: 21px; */
     border-radius: 50%;
-    background: #000;
-    position: relative;
+    margin: 20px;
+    /* background: #000;
+    position: relative; */
 }
 .AppScreenShot .heading{
   margin-bottom: 0px;
@@ -5098,7 +5109,24 @@ line-height: 1.4;
 .contact-item a,.contact-item a:hover,.contact-item p{
 color: #022DD5;
 }
-#Culture .team-row .col-sm-4.col-md-2.team-wrap{
+/* #Culture .team-row .col-sm-4.col-md-2.team-wrap{
   justify-content: center;
     display: flex;
+} */
+.mobileVersion{
+  display: none;
+}
+@media (max-width: 768px) {
+  .webVersion{
+    display: none;
+  }
+  .mobileVersion{
+    display: block;
+  }
+  .mobileVersion .features-text {
+    padding-left: 0px;
+}
+.mobileVersion .service-item-box{
+  padding: 30px;
+}
 }
