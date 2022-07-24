@@ -4204,12 +4204,17 @@ p.footer-address {
 font-style: unset;
 
 }
-.builtSchedule .service-item-box.icon-effect-1.icon-effect-1a a{
-  /* border-radius: 50%;
-  background: #e76D21;
+.builtSchedule .webVersion .service-item-box.icon-effect-1.icon-effect-1a a{
+  border-radius: 50%;
+  /* background: #e76D21; */
   width: 45px;
   height: 45px;
-  text-align: center; */
+  text-align: center;
+}
+.builtSchedule .webVersion .service-item-box.icon-effect-1.icon-effect-1a img{
+  width: 70%;
+    position: relative;
+    right: 14px;
 }
 /* nav */
 nav .collapse.navbar-collapse.text-center{
