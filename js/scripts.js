@@ -352,8 +352,7 @@
             $("#owl-partners").owlCarousel({
                 slideSpeed: 100,
                 autoPlay: 1000,
-                pagination: false,
-                slideshow: false,
+                pagination: true,                
                 itemsCustom: [
                   [0, 3],      
                   [450, 5],
