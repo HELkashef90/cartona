@@ -4205,11 +4205,11 @@ font-style: unset;
 
 }
 .builtSchedule .service-item-box.icon-effect-1.icon-effect-1a a{
-  border-radius: 50%;
+  /* border-radius: 50%;
   background: #e76D21;
   width: 45px;
   height: 45px;
-  text-align: center;
+  text-align: center; */
 }
 /* nav */
 nav .collapse.navbar-collapse.text-center{
@@ -5124,8 +5124,8 @@ color: #022DD5;
   display: none;
 }
 @media (max-width: 992px) {
-  #Culture .team-member .team-img {
-    margin-bottom: 0px; 
+  #Culture .team-member  {
+    margin-bottom: 0px !important; 
    }
   #Culture .team-img {
     margin: 70px;
