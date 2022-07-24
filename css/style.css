@@ -4922,10 +4922,11 @@ color: #7a7a7a;
         margin-right: 0px;
 
       }
+      #Culture .team-img {
+        margin: 100px;}
     }
   @media (max-width: 480px) {
-    #Culture .team-img {
-      margin: 100px;}
+
     .service-item-box > a {
       margin-bottom: 27px;
       margin-top: 27px;
