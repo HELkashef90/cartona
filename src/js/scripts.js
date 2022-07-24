@@ -350,12 +350,12 @@
             "use strict";
 
             $("#owl-partners").owlCarousel({
-
-                autoPlay: 3000,
-                pagination: false,
+                slideSpeed: 100,
+                autoPlay: 1000,
+                pagination: true,                
                 itemsCustom: [
-                  [0, 3],      
-                  [450, 5],
+                  [0, 4],      
+                  [450, 6],
                   [700, 6],
                   [1000, 7],
                   [1200, 8],
@@ -408,7 +408,7 @@
 
               slideSpeed: 300,
               paginationSpeed: 400,
-              items: 4,
+              items: 5,
               itemsDesktop: [1199,3],
               itemsDesktopSmall: [979,3],
               itemsCustom: [
@@ -416,7 +416,7 @@
                 [450, 2],
                 [680, 2.5],
                 [979,3],
-                [1199,4]
+                [1199,5]
  
               ],
               pagination: true
