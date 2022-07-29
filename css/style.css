@@ -4749,7 +4749,13 @@ color: #7a7a7a;
 #product,
 .section-wrap.contact,
 .section-wrap.partner{
-  padding-top: 0px;
+  padding-bottom: 40px;
+}
+.section-wrap.process{
+  margin-top: 50px;
+}
+.mapSection img{
+  width: 100%;
 }
 .our-team .team-row {
   margin-left: -15px;
