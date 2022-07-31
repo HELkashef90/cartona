@@ -4882,6 +4882,9 @@ color: #7a7a7a;
 }
 
 }
+.section-wrap.mapSection{
+  padding: 0px;
+}
   @media (max-width: 768px) {
 
     .waveWrapperInner    {
