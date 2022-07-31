@@ -4885,8 +4885,17 @@ color: #7a7a7a;
 .section-wrap.mapSection{
   padding: 0px;
 }
-  @media (max-width: 768px) {
 
+.mapSection .mobileVersion{
+  display: none;
+}
+  @media (max-width: 768px) {
+    .mapSection .mobileVersion{
+      display: block;
+    }
+    .mapSection .desktopVersion{
+      display: none;
+    }
     .waveWrapperInner    {
       background-position: right !important;
 
