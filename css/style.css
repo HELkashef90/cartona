@@ -4883,6 +4883,11 @@ color: #7a7a7a;
 
 }
   @media (max-width: 768px) {
+
+    .waveWrapperInner    {
+      background-position: right !important;
+
+    }
     #Culture .team-img {
       margin: 70px;
       margin-bottom: 0px;
